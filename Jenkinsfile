@@ -10,6 +10,6 @@ pipeline {
     }
   }
   environment {
-    TEST_USER = 'credentials(\'test-user\')'
+    TEST_USER = 'test-user'
   }
 }
