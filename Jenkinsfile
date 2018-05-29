@@ -9,4 +9,7 @@ pipeline {
       }
     }
   }
+  environment {
+    TEST_USER = 'credentials(\'test-user\')'
+  }
 }
