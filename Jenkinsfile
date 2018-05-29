@@ -5,7 +5,7 @@ pipeline {
       steps {
         echo 'welcome to jenkins2'
         sh 'java -version'
-        echo '${TEST_USER_USR}'
+        echo '${TEST_USER}'
       }
     }
   }
