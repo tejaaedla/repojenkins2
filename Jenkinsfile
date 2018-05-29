@@ -11,6 +11,11 @@ pipeline {
         echo "${TEST_USER_PSW}"
       }
     }
+    stage('deploy') {
+      steps {
+        echo 'deploy job'
+      }
+    }
   }
   environment {
     MY_NAME = 'Mary'
